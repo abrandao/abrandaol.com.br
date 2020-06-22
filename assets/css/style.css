@@ -1,3 +1,11 @@
+.top {
+  background-color: #000000;
+  background-image: url("../images/topo_mobile.png");  
+  background-repeat: no-repeat;
+  height: 200px;
+  background-size: cover;
+}
+
 p {
   text-align: justify;
 }
@@ -29,4 +37,14 @@ a {
 
 .fa-youtube-play {
   color: red;
+}
+
+/* Media queries */
+@media screen and (min-width: 450px) {
+  .content {
+    padding: 0 64px;
+  }
+  .table {
+    padding: 0 64px;
+  }
 }
