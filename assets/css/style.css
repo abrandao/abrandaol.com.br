@@ -1,6 +1,6 @@
 .top {
   background-color: #000000;
-  background-image: url("../images/topo_mobile.png");
+  background-image: url("../images/topo_mobile.webp");
   background-repeat: no-repeat;
   min-height: 140px;
   background-size: cover;
@@ -80,7 +80,7 @@ a {
 @media screen and (min-width: 800px) {
   .top {
     min-height: 160px;
-    background-image: url("../images/topo_laptop.png");
+    background-image: url("../images/topo_laptop.webp");
   }
 }
 
@@ -117,6 +117,7 @@ a {
 @media screen and (min-width: 1700px) {
   .top {
     min-height: 340px;
+    background-image: url("../images/toposite.webp");
   }
 }
 
